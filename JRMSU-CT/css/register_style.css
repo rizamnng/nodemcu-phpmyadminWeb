@@ -1,0 +1,84 @@
+body{
+  margin-top: 5%;
+  padding: 0;
+  font-family: Arial Black;
+  background:#34a8eb ;
+  text-align: center;
+}
+.box h1{
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: Arial Black;
+  text-transform: uppercase;
+  text-align: center;
+}
+.box{
+  width: 800px;
+  padding: 10px;
+  position: absolute;
+  top: 5%;
+  left:25%;
+  transform: translate(-50%,-50%);
+  border: 5px solid #235e99;
+  border-radius: 75px;
+  margin: 400px ;
+  background: #235e99;
+  border: 2px solid black;
+
+}
+.box input[type = "text"],.box input[type = "email"]{
+  border:0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid gray;
+  padding: 14px 10px;
+  width: 600px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "radio"]:focus{
+  width: 100px;
+  border-color: #db6002;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: darkgreen;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+
+
+select{
+  font-size: 25px;
+  background-color: darkgreen;
+  color: black;
+  width: 300px;
+}
+.foropt{
+  font-size: 25px;
+}
+.gender{
+  width: 25px;
+  height: 25px;
+}
+
+
+header a{
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: black;
+}

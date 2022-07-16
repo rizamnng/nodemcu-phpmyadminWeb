@@ -1,0 +1,65 @@
+body{
+	background:#34a8eb ;
+	overflow-x: hidden;
+	font-family: Garamond Black;
+}
+div a{
+	position: left;
+	padding-left: 85%;
+	color: white;
+	font-size: 30px;
+}
+
+div {
+    
+    background-color: black;
+    color: white;
+    margin: 0 0 0 0;
+   	padding: 1% 5% 1% 5%;
+   	height: 200%;
+   	font-size: 25px;
+
+}
+
+form{
+	text-align: center;
+	align-items: center;
+	font-size: 40px;
+}
+
+
+
+table{
+	color: red;
+	font-size: 30px;
+}
+
+input {
+	width: 30%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 40px;
+}
+
+input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 14px 20px;
+  outline: none;
+  color: white;
+  border-radius: 14px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+h2{
+	font-size: 35px;
+}
+
+span{
+	font-size: 40px;
+}

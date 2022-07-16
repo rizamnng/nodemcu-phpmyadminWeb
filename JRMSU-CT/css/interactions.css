@@ -1,0 +1,251 @@
+
+
+h2{
+  text-align: center;
+  color:#3366cc;
+  font-family: Arial Black;
+  font-size: 30px;
+
+  margin: -5% 0 0 0;
+  padding: 0 0 0 0;
+}
+table{
+  width: 100%;
+}
+
+th{
+  text-align:center;
+  padding-right:15px;
+  color:white;
+  background-color: #3366cc;
+  font-family: Times New Roman;
+}
+#background{
+  position: absolute;
+  width: 800px;
+  height: 650px;
+  left: 300px;
+  top: 189px;
+  padding-bottom: 120px;
+  opacity: 0.65;
+  border-radius: 148.5px
+}
+
+
+
+nav.primary-navigation {
+  display: block;
+  padding: 0 0 0 0;
+  text-align: center;
+  font-size: 16px;
+  position: fixed;
+  background-color: #F5F0FF;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding-top: 10px;
+}
+nav.primary-navigation ul li {
+  list-style: none;
+  border-right: 2px solid #3ca0e7;
+  display: inline-block;
+  padding: 0 30px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-family: arvo;
+  margin: 0 0 0 0;
+  padding-bottom: 0;
+}
+nav.primary-navigation li a {
+  color: black;
+  margin: 0 0 0 0;
+  padding-bottom: 0;
+}
+nav.primary-navigation li a:hover {
+  color: #3ca0e7;
+}
+nav.primary-navigation li:hover {
+  cursor: pointer;
+}
+nav.primary-navigation ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  padding-left: 0;
+  padding-bottom: 0;
+  left: 0;
+  display: none;
+  background: #F5F0FF ;
+  margin: 0 0 0 0;
+}
+nav.primary-navigation ul li:hover > ul,
+nav.primary-navigation ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  min-width: 250px;
+  text-align: left;
+  padding-top: 20px;
+  box-shadow: 0px 3px 5px -1px #ccc;
+  margin: 0 0 0 0;
+}
+nav.primary-navigation ul li ul li {
+  clear: both;
+  width: 100%;
+  text-align: left;
+  border-style: none;
+  margin: 0 0 0 0;
+  padding-bottom: 0;
+}
+nav.primary-navigation ul li ul li a:hover {
+  padding-left: 10px;
+  border-right: 2px solid #3ca0e7;
+  transition: all 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 0 0 0;
+  padding-bottom: 0;
+}
+a:hover {
+  color: #3CA0E7;
+}
+
+ul li ul li a {
+  transition: all 0.5s ease;
+  margin: 0 0 0 0;
+  padding-bottom: 0;
+}
+
+form{
+  text-align: center;
+}
+
+#PrintButton{
+  margin-left: 89%;
+}
+button.print-button {
+  width: 70px;
+  height: 70px;
+}
+span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+  border: solid 4px #333;
+}
+span.print-icon::after {
+  border-width: 2px;
+}
+
+button.print-button {
+  position: relative;
+  padding: 0;
+  border: 0;
+  
+  border: none;
+  background: transparent;
+}
+
+span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+span.print-icon {
+  position: relative;
+  display: inline-block;  
+  padding: 0;
+  margin-top: -5%;
+
+  width: 60%;
+  height: 35%;
+  background: #fff;
+  border-radius: 20% 20% 0 0;
+}
+
+span.print-icon::before {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 12%;
+  right: 12%;
+  height: 110%;
+
+  transition: height .2s .15s;
+}
+
+span.print-icon::after {
+  content: " ";
+  position: absolute;
+  top: 55%;
+  left: 12%;
+  right: 12%;
+  height: 0%;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-size: 70% 90%;
+  background-position: center;
+  background-image: linear-gradient(
+    to top,
+    #fff 0, #fff 14%,
+    #333 14%, #333 28%,
+    #fff 28%, #fff 42%,
+    #333 42%, #333 56%,
+    #fff 56%, #fff 70%,
+    #333 70%, #333 84%,
+    #fff 84%, #fff 100%
+  );
+
+  transition: height .2s, border-width 0s .2s, width 0s .2s;
+}
+
+button.print-button:hover {
+  cursor: pointer;
+}
+
+button.print-button:hover .print-icon::before {
+  height:0px;
+  transition: height .2s;
+}
+button.print-button:hover .print-icon::after {
+  height:120%;
+  transition: height .2s .15s, border-width 0s .16s;
+}
+
+a{
+  margin-left: 5%;
+}
+
+
+.form-submit-button {
+background: #0066A2;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+height: 35px;
+width: 200px;
+font: bold15px arial,sans-serif;
+text-shadow: none;
+}
+
+
+.date{
+  background: white;
+  color:#0066A2 ;
+  border-style: outset;
+  border-color: #0066A2;
+  height: 30px;
+  width: 200px;
+  font: bold15px arial,sans-serif;
+  text-shadow: none;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+header a{
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+body{
+  background-color: #e6e6e6;
+}

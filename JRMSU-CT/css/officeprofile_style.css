@@ -1,0 +1,21 @@
+form{
+  border: 0;
+  border: 2px solid black;
+  width: 200px;
+  padding: 50px 30px;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #235e99;
+  text-align: center;
+  border-radius: 40px;
+  height: 70px;
+}
+body{
+	background-color: #34a8eb;
+}
+input{
+	border: 1.5px solid black;
+	margin-bottom: 5px;
+}
